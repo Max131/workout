@@ -36,10 +36,6 @@ body{
 	text-align: center;
 	background-color: var(--color-title);
 }
-h2{
-	font-size: 3rem;
-	text-shadow: 1px 1px 2px var(--color-title);
-}
 p{
 	text-shadow: 1px 1px 2px var(--color-title);
 }
@@ -136,6 +132,8 @@ label{
 .title{
 	margin-bottom: 0;
 	padding-bottom: 0;
+	font-size: 2rem;
+	text-shadow: 1px 1px 2px var(--color-title);
 }
 .subtitle{
 	margin-top: 0;
@@ -150,5 +148,8 @@ label{
 	label{
 		margin-top: 2rem;
 		margin-bottom: 1rem;
+	}
+	.title{
+		font-size: 2.5rem;
 	}
 }
