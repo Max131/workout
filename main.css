@@ -27,7 +27,7 @@
 	transition: 0.5;
 }
 html{
-	font: 18px/1.6 'Poppins', system-ui, sans-serif;
+	font: 16px/1.6 'Poppins', system-ui, sans-serif;
 	scroll-behavior: smooth;
 	height: 100%;
 }
@@ -144,6 +144,9 @@ label{
 }
 
 @media screen and (min-width: 768px){
+	html{
+		font-size: 18px;
+	}
 	label{
 		margin-top: 2rem;
 		margin-bottom: 1rem;
