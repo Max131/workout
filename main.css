@@ -99,24 +99,21 @@ a{
   position: absolute;
   inset: 0;
   flex: 1 0 100vw;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   opacity: 0;
   clip-path: circle(0 at top left);
   transition: 0.75s;
 }
 .slide:nth-child(1){
-  background: url('images/trainingGirl1.webp');
+  background: url('images/trainingGirl1.webp') no-repeat center/cover;
 }
 .slide:nth-child(2){
-  background: url('images/trainingGirl2.webp');
+  background: url('images/trainingGirl2.webp') no-repeat center/cover;
 }
 .slide:nth-child(3){
-  background: url('images/trainingGirl3.webp');
+  background: url('images/trainingGirl3.webp') no-repeat center/cover;
 }
 .slide:nth-child(4){
-  background: url('images/trainingGirl4.webp');
+  background: url('images/trainingGirl4.webp') no-repeat center/cover;
 }
 .slide__content{
   padding: 1rem;
